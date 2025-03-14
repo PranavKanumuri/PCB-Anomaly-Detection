@@ -10,11 +10,27 @@ Resizing Images to 640x640 to make all the images the same size which will help 
 
 Converting RBG images to Greyscale and further to Binary images. This is done to, again, reduce computuation power needed and imcrease the speed needed for the model. We are converting RGB into two types of images to compare which one performs the best. Conversion to Greyscale and Binary images were done using Histogram Equalisation.
 
+Examples:
+
 <p align="center">
   <img src="https://github.com/user-attachments/assets/e4b8293d-1eca-4774-83c4-5e5725c5a86a" width="300">
+  <br>
+  <b>RGB Image</b>
 </p>
 
-**RGB Image**
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/5d011db8-13b3-46af-8a41-64ef33d25e59" width="300">
+  <br>
+  <b>Greyscale Image</b>
+</p>
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/e8110494-74cb-495d-b187-f60c84e5f29e" width="300">
+  <br>
+  <b>Binary Image</b>
+</p>
+
+
 
 
 
