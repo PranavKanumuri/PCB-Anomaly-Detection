@@ -41,6 +41,20 @@ Examples:
 When the model goes through the testing dataset, it creates annotations which are saved with the same name as the image. 
 I used average confidence as the evaluation metric. Here, confidence means the value that the identified area hasn anomaly. This is calculated by converting the annotations of that image (which is given in the dataset) and the annotations that the model generates for it.
 
+Example:
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/bc9bf35b-8f3c-4d28-9c19-40c1ef5d301e" width="300">
+  <br>
+  <b>Greyscale Image</b>
+</p>
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/b352ca4f-e7e7-40d6-b9a5-c97e20f86e8c" width="300">
+  <br>
+  <b>Binary Image</b>
+</p>
+
 The average confidence for Greyscale Images : **0.6649**
 The average confidence for Binary Images : **0.7564**
 
