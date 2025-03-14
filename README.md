@@ -30,6 +30,22 @@ Examples:
   <b>Binary Image</b>
 </p>
 
+## Model Training
+
+1. K-Fold Cross validation was performed on both Greyscale and Binary images.
+2. YOLO was used on Greyscale and Binary images.
+3. Model was trained on the Greyscale and Binary images.
+
+## Results
+
+When the model goes through the testing dataset, it creates annotations which are saved with the same name as the image. 
+I used average confidence as the evaluation metric. Here, confidence means the value that the identified area hasn anomaly. This is calculated by converting the annotations of that image (which is given in the dataset) and the annotations that the model generates for it.
+
+The average confidence for Greyscale Images : **0.6649**
+The average confidence for Binary Images : **0.7564**
+
+**From this, we can see that using Binary Images proves to be better and produces more accurate results.**
+
 
 
 
